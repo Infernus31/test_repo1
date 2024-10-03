@@ -13,12 +13,12 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh 'ssh root@ubuntumsk \'hostname\''
+                sh 'ssh user1@ubuntumsk \'hostname\''
             }
         }
         stage("Second step") {
             steps {
-                sh 'ssh root@ubuntumsk \'uptime\''
+                sh 'ssh user1@ubuntumsk \'uptime\''
             }
         }
     }
