@@ -1,4 +1,3 @@
 FROM ubuntu:18.04
-USER root
-RUN apt update
-RUN apt install tree
+RUN sudo apt update
+RUN sudo apt install tree
