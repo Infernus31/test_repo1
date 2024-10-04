@@ -1,2 +1,2 @@
 FROM alpine
-RUN apt install tree
+RUN sudo apt install tree
