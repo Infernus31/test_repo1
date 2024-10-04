@@ -1,3 +1,3 @@
 FROM ubuntu:18.04
 USER root
-RUN apt install tree
+RUN apt update
