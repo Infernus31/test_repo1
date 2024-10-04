@@ -1,2 +1,2 @@
 FROM ubuntu:18.04
-RUN sudo apt install tree
+RUN apt install tree
